@@ -1,14 +1,15 @@
 'use client'
 import React from 'react'
 import Image from 'next/image';
-import TopNavOne from '@/components/Header/TopNav/TopNavOne'
-import MenuOne from '@/components/Header/Menu/MenuOne'
-import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import Benefit from '@/components/Home1/Benefit'
 import Newsletter from '@/components/Home4/Newsletter'
 import Instagram from '@/components/Home6/Instagram'
 import Brand from '@/components/Home1/Brand'
 import Footer from '@/components/Footer/Footer'
+
+import img1 from '/public/images/clothes/african-shirt-pink-back.jpg'
+import img2 from '/public/images/clothes/heritage-dress.jpg'
+import img3 from '/public/images/clothes/cargo-pants.jpg'
 
 const AboutUs = () => {
     return (
@@ -23,35 +24,35 @@ const AboutUs = () => {
                     <div className="container">
                         <div className="text flex items-center justify-center">
                             <div className="content md:w-5/6 w-full">
-                                <div className="heading3 text-center">I{String.raw`'m`} obsessed with the dress Pippa Middleton wore to her brother{String.raw`'s`} wedding.</div>
-                                <div className="body1 text-center md:mt-7 mt-5">Kim Kardashian West needs no introduction. In the 14 years since she first graced our screens in Keeping Up With The Kardashians, she has built her KKW beauty empire, filmed her show, wrapped her show, become a billionaire, studied law, campaigned for the rights of death row inmates, travelled the world to attend events such as Paris Fashion Week, raised four children and launched her wildly successful shapewear brand SKIMS.</div>
+                                <div className="heading3 text-center">Heritage Woven, Style Unleashed</div>
+                                <div className="body1 text-center md:mt-7 mt-5">LOBOE is more than just fashion; it&apos;s a celebration of heritage, craftsmanship, and diversity. Born from a fervent desire to showcase and celebrate Africa&apos;s rich cultural tapestry, every stitch tells a story of tradition and innovation. We weave together the vibrant essence of African culture with contemporary elegance, creating pieces that empower you to embrace your heritage while making a bold fashion statement.</div>
                             </div>
                         </div>
                         <div className="list-img grid sm:grid-cols-3 gap-[30px] md:pt-20 pt-10">
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/other/about-us1.png'}
+                                    src={img1.src}
                                     width={2000}
                                     height={3000}
-                                    alt='bg-img'
+                                    alt='African artisan craftsmanship'
                                     className='w-full rounded-[30px]'
                                 />
                             </div>
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/other/about-us2.png'}
+                                    src={img2.src}
                                     width={2000}
                                     height={3000}
-                                    alt='bg-img'
+                                    alt='LOBOE contemporary collection'
                                     className='w-full rounded-[30px]'
                                 />
                             </div>
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/other/about-us3.png'}
+                                    src={img3.src}
                                     width={2000}
                                     height={3000}
-                                    alt='bg-img'
+                                    alt='Sustainable fashion practices'
                                     className='w-full rounded-[30px]'
                                 />
                             </div>
