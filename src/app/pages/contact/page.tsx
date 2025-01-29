@@ -41,15 +41,14 @@ const ContactUs = () => {
                         <div className="right lg:w-1/4 lg:pl-4">
                             <div className="item">
                                 <div className="heading4">Our Store</div>
-                                <p className="mt-3">2163 Phillips Gap Rd, West Jefferson, North Carolina, United States</p>
-                                <p className="mt-3">Phone: <span className='whitespace-nowrap'>+1 666 8888</span></p>
-                                <p className="mt-1">Email: <span className='whitespace-nowrap'>hi.avitex@gmail.com</span></p>
+                                <p className="mt-3">123 Independence Avenue, Accra, Ghana</p>
+                                <p className="mt-3">Phone: <span className='whitespace-nowrap'>+233 30 277 6666</span></p>
+                                <p className="mt-1">Email: <span className='whitespace-nowrap'>accra@africanstore.com</span></p>
                             </div>
                             <div className="item mt-10">
                                 <div className="heading4">Open Hours</div>
-                                <p className="mt-3">Mon - Fri: <span className='whitespace-nowrap'>7:30am - 8:00pm PST</span></p>
-                                <p className="mt-3">Saturday: <span className='whitespace-nowrap'>8:00am - 6:00pm PST</span></p>
-                                <p className="mt-3">Sunday: <span className='whitespace-nowrap'>9:00am - 5:00pm PST</span></p>
+                                <p className="mt-3">Mon - Fri: <span className='whitespace-nowrap'>08:00 - 17:00</span></p>
+                                <p className="mt-3">Saturday & Sunday: <span className='whitespace-nowrap'>09:00 - 14:00</span></p>
                             </div>
                         </div>
                     </div>
