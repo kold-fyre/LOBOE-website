@@ -22,7 +22,7 @@ import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 export default function HomeUnderwear() {
     return (
         <>
-            <TopNavThree props="style-three bg-white" />
+            {/* <TopNavThree props="style-three bg-white" />
             <div id="header" className='relative w-full'>
                 <MenuFour props="bg-white" />
                 <BannerTop props="bg-black py-3" textColor='text-white' bgLine='bg-white' />
@@ -39,7 +39,7 @@ export default function HomeUnderwear() {
             <Instagram />
             <Benefit props="py-[60px]" />
             <Footer />
-            <ModalNewsletter />
+            <ModalNewsletter /> */}
         </>
     )
 }

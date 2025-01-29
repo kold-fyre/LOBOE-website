@@ -21,7 +21,7 @@ import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 export default function HomeCosmeticTwo() {
     return (
         <>
-            <TopNavThree props="style-three bg-white" />
+            {/* <TopNavThree props="style-three bg-white" />
             <div id="header" className='w-full relative'>
                 <MenuCosmeticOne props="bg-white" />
                 <BannerTop props="bg-green py-3" textColor='text-black' />
@@ -38,7 +38,7 @@ export default function HomeCosmeticTwo() {
             <Instagram />
             <Brand />
             <Footer />
-            <ModalNewsletter />
+            <ModalNewsletter /> */}
         </>
     )
 }

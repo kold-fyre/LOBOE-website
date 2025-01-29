@@ -18,7 +18,7 @@ import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 export default function HomeWatch() {
     return (
         <>
-            <div className="bg-black style-watch">
+            {/* <div className="bg-black style-watch">
                 <TopNavOne props="style-one bg-black" slogan='New customers save 10% with the code GET10' />
                 <div id="header" className='relative w-full'>
                     <MenuWatch props="bg-green" />
@@ -37,7 +37,7 @@ export default function HomeWatch() {
                     <Footer />
                 </div>
             </div>
-            <ModalNewsletter />
+            <ModalNewsletter /> */}
         </>
     )
 }
