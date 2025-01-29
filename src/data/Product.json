@@ -1,0 +1,227 @@
+[
+  {
+    "id": "161",
+    "category": "fashion",
+    "type": "pants",
+    "name": "Stylish Cargo Pants",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 4,
+    "price": 59.99,
+    "originPrice": 59.99,
+    "brand": "UrbanGear",
+    "sold": 42,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variation": [
+      {
+        "color": "khaki",
+        "colorCode": "#C3B091",
+        "colorImage": "/images/clothes/cargo-pants.jpg",
+        "image": "/images/clothes/cargo-pants.jpg"
+      },
+      {
+        "color": "olive",
+        "colorCode": "#3D9970",
+        "colorImage": "/images/clothes/cargo-pants.jpg",
+        "image": "/images/clothes/cargo-pants.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/clothes/cargo-pants.jpg",
+      "/images/clothes/cargo-pants.jpg"
+    ],
+    "images": [
+      "/images/clothes/cargo-pants.jpg",
+      "/images/clothes/cargo-pants.jpg",
+      "/images/clothes/cargo-pants.jpg"
+    ],
+    "description": "Versatile and comfortable cargo pants perfect for casual outings or outdoor adventures. Multiple pockets provide ample storage for all your essentials.",
+    "action": "add to cart",
+    "slug": "stylish-cargo-pants"
+  },
+  {
+    "id": "162",
+    "category": "fashion",
+    "type": "dress",
+    "name": "Elegant Heritage Dress",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 5,
+    "price": 89.99,
+    "originPrice": 119.99,
+    "brand": "VintageChic",
+    "sold": 28,
+    "quantity": 50,
+    "quantityPurchase": 1,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "variation": [
+      {
+        "color": "cream",
+        "colorCode": "#FFFDD0",
+        "colorImage": "/images/clothes/heritage-dress.jpg",
+        "image": "/images/clothes/heritage-dress.jpg"
+      },
+      {
+        "color": "sage",
+        "colorCode": "#BCB88A",
+        "colorImage": "/images/clothes/heritage-dress.jpg",
+        "image": "/images/clothes/heritage-dress.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/clothes/heritage-dress.jpg",
+      "/images/clothes/heritage-dress.jpg"
+    ],
+    "images": [
+      "/images/clothes/heritage-dress.jpg",
+      "/images/clothes/heritage-dress.jpg",
+      "/images/clothes/heritage-dress.jpg"
+    ],
+    "description": "A timeless heritage dress that combines classic elegance with modern comfort. Perfect for special occasions or a sophisticated day out.",
+    "action": "quick shop",
+    "slug": "elegant-heritage-dress"
+  },
+  {
+    "id": "163",
+    "category": "fashion",
+    "type": "dress",
+    "name": "Contemporary Chic Dress",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 4,
+    "price": 79.99,
+    "originPrice": 79.99,
+    "brand": "ModernMuse",
+    "sold": 35,
+    "quantity": 75,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variation": [
+      {
+        "color": "black",
+        "colorCode": "#000000",
+        "colorImage": "/images/clothes/contemp-dress.jpg",
+        "image": "/images/clothes/contemp-dress.jpg"
+      },
+      {
+        "color": "red",
+        "colorCode": "#FF0000",
+        "colorImage": "/images/clothes/contemp-dress.jpg",
+        "image": "/images/clothes/contemp-dress.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/clothes/contemp-dress.jpg",
+      "/images/clothes/contemp-dress.jpg"
+    ],
+    "images": [
+      "/images/clothes/contemp-dress.jpg",
+      "/images/clothes/contemp-dress.jpg",
+      "/images/clothes/contemp-dress.jpg"
+    ],
+    "description": "A sleek and stylish contemporary dress that makes a bold statement. Ideal for modern women who appreciate cutting-edge fashion and comfort.",
+    "action": "add to cart",
+    "slug": "contemporary-chic-dress"
+  },
+  {
+    "id": "164",
+    "category": "fashion",
+    "type": "shirt",
+    "name": "African Pink Shirt",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 69.99,
+    "originPrice": 69.99,
+    "brand": "AfriChic",
+    "sold": 30,
+    "quantity": 80,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variation": [
+      {
+        "color": "pink",
+        "colorCode": "#FFC0CB",
+        "colorImage": "/images/clothes/african-shirt-pink.jpg",
+        "image": "/images/clothes/african-shirt-pink.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/clothes/african-shirt-pink.jpg",
+      "/images/clothes/african-shirt-pink-back.jpg"
+    ],
+    "images": [
+      "/images/clothes/african-shirt-pink.jpg",
+      "/images/clothes/african-shirt-pink-back.jpg"
+    ],
+    "description": "Vibrant African-inspired pink shirt, perfect for making a bold fashion statement.",
+    "action": "add to cart",
+    "slug": "african-pink-shirt"
+  },
+  {
+    "id": "165",
+    "category": "fashion",
+    "type": "shirt",
+    "name": "Tie and Dye Shirt",
+    "gender": "unisex",
+    "new": true,
+    "sale": true,
+    "rate": 4,
+    "price": 49.99,
+    "originPrice": 59.99,
+    "brand": "BohoChic",
+    "sold": 45,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variation": [
+      {
+        "color": "multi",
+        "colorCode": "#000000",
+        "colorImage": "/images/clothes/tie-and-dye-shirt.jpg",
+        "image": "/images/clothes/tie-and-dye-shirt.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/clothes/tie-and-dye-shirt.jpg",
+      "/images/clothes/tie-and-dye-shirt-back.jpg"
+    ],
+    "images": [
+      "/images/clothes/tie-and-dye-shirt.jpg",
+      "/images/clothes/tie-and-dye-shirt-back.jpg"
+    ],
+    "description": "Trendy tie and dye shirt with unique patterns, perfect for a casual and stylish look.",
+    "action": "add to cart",
+    "slug": "tie-and-dye-shirt"
+  }
+]
