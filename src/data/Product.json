@@ -223,5 +223,497 @@
     "description": "Trendy tie and dye shirt with unique patterns, perfect for a casual and stylish look.",
     "action": "add to cart",
     "slug": "tie-and-dye-shirt"
+  },
+  {
+    "id": "201",
+    "category": "cosmetic",
+    "type": "skincare",
+    "name": "Natural Face Serum",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 49.99,
+    "originPrice": 49.99,
+    "brand": "PureGlow",
+    "sold": 85,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": ["30ml", "50ml", "100ml"],
+    "variation": [
+      {
+        "color": "default",
+        "colorCode": "#FFFFFF",
+        "colorImage": "/images/cosmetic/serum-1.jpg",
+        "image": "/images/cosmetic/serum-1.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/cosmetic/serum-1.jpg",
+      "/images/cosmetic/serum-2.jpg"
+    ],
+    "images": [
+      "/images/cosmetic/serum-1.jpg",
+      "/images/cosmetic/serum-2.jpg",
+      "/images/cosmetic/serum-3.jpg"
+    ],
+    "description": "A powerful natural face serum that hydrates and rejuvenates your skin.",
+    "action": "add to cart",
+    "slug": "natural-face-serum"
+  },
+  {
+    "id": "202",
+    "category": "cosmetic",
+    "type": "makeup",
+    "name": "Matte Lipstick Collection",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 29.99,
+    "originPrice": 39.99,
+    "brand": "GlamourGlow",
+    "sold": 120,
+    "quantity": 150,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "ruby",
+        "colorCode": "#E0115F",
+        "colorImage": "/images/cosmetic/lipstick-ruby.jpg",
+        "image": "/images/cosmetic/lipstick-ruby.jpg"
+      },
+      {
+        "color": "coral",
+        "colorCode": "#FF7F50",
+        "colorImage": "/images/cosmetic/lipstick-coral.jpg",
+        "image": "/images/cosmetic/lipstick-coral.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/cosmetic/lipstick-ruby.jpg",
+      "/images/cosmetic/lipstick-coral.jpg"
+    ],
+    "images": [
+      "/images/cosmetic/lipstick-ruby.jpg",
+      "/images/cosmetic/lipstick-coral.jpg",
+      "/images/cosmetic/lipstick-set.jpg"
+    ],
+    "description": "Long-lasting matte lipstick collection in stunning shades.",
+    "action": "add to cart",
+    "slug": "matte-lipstick-collection"
+  },
+  {
+    "id": "203",
+    "category": "cosmetic",
+    "type": "skincare",
+    "name": "Vitamin C Serum",
+    "gender": "unisex",
+    "new": true,
+    "sale": true,
+    "rate": 5,
+    "price": 39.99,
+    "originPrice": 49.99,
+    "brand": "PureGlow",
+    "sold": 95,
+    "quantity": 120,
+    "quantityPurchase": 1,
+    "sizes": ["30ml", "50ml"],
+    "variation": [
+      {
+        "color": "default",
+        "colorCode": "#FFFFFF",
+        "colorImage": "/images/cosmetic/vitamin-c-1.jpg",
+        "image": "/images/cosmetic/vitamin-c-1.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/cosmetic/vitamin-c-1.jpg",
+      "/images/cosmetic/vitamin-c-2.jpg"
+    ],
+    "images": [
+      "/images/cosmetic/vitamin-c-1.jpg",
+      "/images/cosmetic/vitamin-c-2.jpg",
+      "/images/cosmetic/vitamin-c-3.jpg"
+    ],
+    "description": "Powerful Vitamin C serum for brighter, more radiant skin.",
+    "action": "add to cart",
+    "slug": "vitamin-c-serum"
+  },
+  {
+    "id": "204",
+    "category": "cosmetic",
+    "type": "makeup",
+    "name": "Hydrating Foundation",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 4,
+    "price": 34.99,
+    "originPrice": 34.99,
+    "brand": "GlamourGlow",
+    "sold": 75,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": ["30ml"],
+    "variation": [
+      {
+        "color": "light",
+        "colorCode": "#FFE4C4",
+        "colorImage": "/images/cosmetic/foundation-light.jpg",
+        "image": "/images/cosmetic/foundation-light.jpg"
+      },
+      {
+        "color": "medium",
+        "colorCode": "#DEB887",
+        "colorImage": "/images/cosmetic/foundation-medium.jpg",
+        "image": "/images/cosmetic/foundation-medium.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/cosmetic/foundation-light.jpg",
+      "/images/cosmetic/foundation-medium.jpg"
+    ],
+    "images": [
+      "/images/cosmetic/foundation-light.jpg",
+      "/images/cosmetic/foundation-medium.jpg",
+      "/images/cosmetic/foundation-detail.jpg"
+    ],
+    "description": "Long-lasting hydrating foundation with natural finish.",
+    "action": "add to cart",
+    "slug": "hydrating-foundation"
+  },
+  {
+    "id": "301",
+    "category": "jewelry",
+    "type": "necklace",
+    "name": "Diamond Pendant Necklace",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 999.99,
+    "originPrice": 999.99,
+    "brand": "LuxeGems",
+    "sold": 25,
+    "quantity": 50,
+    "quantityPurchase": 1,
+    "sizes": ["18inch", "20inch", "24inch"],
+    "variation": [
+      {
+        "color": "gold",
+        "colorCode": "#FFD700",
+        "colorImage": "/images/jewelry/necklace-gold.jpg",
+        "image": "/images/jewelry/necklace-gold.jpg"
+      },
+      {
+        "color": "silver",
+        "colorCode": "#C0C0C0",
+        "colorImage": "/images/jewelry/necklace-silver.jpg",
+        "image": "/images/jewelry/necklace-silver.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/jewelry/necklace-gold.jpg",
+      "/images/jewelry/necklace-silver.jpg"
+    ],
+    "images": [
+      "/images/jewelry/necklace-gold.jpg",
+      "/images/jewelry/necklace-silver.jpg",
+      "/images/jewelry/necklace-detail.jpg"
+    ],
+    "description": "Elegant diamond pendant necklace in 18K gold or sterling silver.",
+    "action": "add to cart",
+    "slug": "diamond-pendant-necklace"
+  },
+  {
+    "id": "302",
+    "category": "jewelry",
+    "type": "ring",
+    "name": "Sapphire Engagement Ring",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 5,
+    "price": 1499.99,
+    "originPrice": 1799.99,
+    "brand": "LuxeGems",
+    "sold": 15,
+    "quantity": 30,
+    "quantityPurchase": 1,
+    "sizes": ["5", "6", "7", "8"],
+    "variation": [
+      {
+        "color": "white-gold",
+        "colorCode": "#E8E8E8",
+        "colorImage": "/images/jewelry/ring-white.jpg",
+        "image": "/images/jewelry/ring-white.jpg"
+      },
+      {
+        "color": "rose-gold",
+        "colorCode": "#B76E79",
+        "colorImage": "/images/jewelry/ring-rose.jpg",
+        "image": "/images/jewelry/ring-rose.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/jewelry/ring-white.jpg",
+      "/images/jewelry/ring-rose.jpg"
+    ],
+    "images": [
+      "/images/jewelry/ring-white.jpg",
+      "/images/jewelry/ring-rose.jpg",
+      "/images/jewelry/ring-detail.jpg"
+    ],
+    "description": "Stunning sapphire engagement ring with diamond accents.",
+    "action": "add to cart",
+    "slug": "sapphire-engagement-ring"
+  },
+  {
+    "id": "303",
+    "category": "jewelry",
+    "type": "bracelet",
+    "name": "Gold Chain Bracelet",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 299.99,
+    "originPrice": 299.99,
+    "brand": "LuxeGems",
+    "sold": 40,
+    "quantity": 60,
+    "quantityPurchase": 1,
+    "sizes": ["18cm", "20cm"],
+    "variation": [
+      {
+        "color": "gold",
+        "colorCode": "#FFD700",
+        "colorImage": "/images/jewelry/bracelet-gold.jpg",
+        "image": "/images/jewelry/bracelet-gold.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/jewelry/bracelet-gold.jpg",
+      "/images/jewelry/bracelet-detail.jpg"
+    ],
+    "images": [
+      "/images/jewelry/bracelet-gold.jpg",
+      "/images/jewelry/bracelet-detail.jpg",
+      "/images/jewelry/bracelet-worn.jpg"
+    ],
+    "description": "Elegant gold chain bracelet, perfect for any occasion.",
+    "action": "add to cart",
+    "slug": "gold-chain-bracelet"
+  },
+  {
+    "id": "304",
+    "category": "jewelry",
+    "type": "earrings",
+    "name": "Pearl Drop Earrings",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 149.99,
+    "originPrice": 199.99,
+    "brand": "LuxeGems",
+    "sold": 55,
+    "quantity": 80,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "white-gold",
+        "colorCode": "#E8E8E8",
+        "colorImage": "/images/jewelry/earrings-pearl.jpg",
+        "image": "/images/jewelry/earrings-pearl.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/jewelry/earrings-pearl.jpg",
+      "/images/jewelry/earrings-detail.jpg"
+    ],
+    "images": [
+      "/images/jewelry/earrings-pearl.jpg",
+      "/images/jewelry/earrings-detail.jpg",
+      "/images/jewelry/earrings-worn.jpg"
+    ],
+    "description": "Classic pearl drop earrings with white gold setting.",
+    "action": "add to cart",
+    "slug": "pearl-drop-earrings"
+  },
+  {
+    "id": "401",
+    "category": "watch",
+    "type": "luxury",
+    "name": "Chronograph Watch",
+    "gender": "men",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 599.99,
+    "originPrice": 599.99,
+    "brand": "TimeKeeper",
+    "sold": 45,
+    "quantity": 75,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "silver",
+        "colorCode": "#C0C0C0",
+        "colorImage": "/images/watch/chrono-silver.jpg",
+        "image": "/images/watch/chrono-silver.jpg"
+      },
+      {
+        "color": "black",
+        "colorCode": "#000000",
+        "colorImage": "/images/watch/chrono-black.jpg",
+        "image": "/images/watch/chrono-black.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/watch/chrono-silver.jpg",
+      "/images/watch/chrono-black.jpg"
+    ],
+    "images": [
+      "/images/watch/chrono-silver.jpg",
+      "/images/watch/chrono-black.jpg",
+      "/images/watch/chrono-detail.jpg"
+    ],
+    "description": "Precision chronograph watch with premium leather strap.",
+    "action": "add to cart",
+    "slug": "chronograph-watch"
+  },
+  {
+    "id": "402",
+    "category": "watch",
+    "type": "smart",
+    "name": "Smart Fitness Watch",
+    "gender": "unisex",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 199.99,
+    "originPrice": 249.99,
+    "brand": "TimeKeeper",
+    "sold": 150,
+    "quantity": 200,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "black",
+        "colorCode": "#000000",
+        "colorImage": "/images/watch/smart-black.jpg",
+        "image": "/images/watch/smart-black.jpg"
+      },
+      {
+        "color": "white",
+        "colorCode": "#FFFFFF",
+        "colorImage": "/images/watch/smart-white.jpg",
+        "image": "/images/watch/smart-white.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/watch/smart-black.jpg",
+      "/images/watch/smart-white.jpg"
+    ],
+    "images": [
+      "/images/watch/smart-black.jpg",
+      "/images/watch/smart-white.jpg",
+      "/images/watch/smart-detail.jpg"
+    ],
+    "description": "Advanced fitness tracking smartwatch with heart rate monitoring.",
+    "action": "add to cart",
+    "slug": "smart-fitness-watch"
+  },
+  {
+    "id": "403",
+    "category": "watch",
+    "type": "luxury",
+    "name": "Classic Leather Watch",
+    "gender": "men",
+    "new": false,
+    "sale": true,
+    "rate": 5,
+    "price": 399.99,
+    "originPrice": 499.99,
+    "brand": "TimeKeeper",
+    "sold": 65,
+    "quantity": 90,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "brown",
+        "colorCode": "#8B4513",
+        "colorImage": "/images/watch/leather-brown.jpg",
+        "image": "/images/watch/leather-brown.jpg"
+      },
+      {
+        "color": "black",
+        "colorCode": "#000000",
+        "colorImage": "/images/watch/leather-black.jpg",
+        "image": "/images/watch/leather-black.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/watch/leather-brown.jpg",
+      "/images/watch/leather-black.jpg"
+    ],
+    "images": [
+      "/images/watch/leather-brown.jpg",
+      "/images/watch/leather-black.jpg",
+      "/images/watch/leather-detail.jpg"
+    ],
+    "description": "Classic leather watch with automatic movement.",
+    "action": "add to cart",
+    "slug": "classic-leather-watch"
+  },
+  {
+    "id": "404",
+    "category": "watch",
+    "type": "smart",
+    "name": "Sport Smart Watch",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 4,
+    "price": 249.99,
+    "originPrice": 249.99,
+    "brand": "TimeKeeper",
+    "sold": 85,
+    "quantity": 120,
+    "quantityPurchase": 1,
+    "sizes": ["standard"],
+    "variation": [
+      {
+        "color": "black",
+        "colorCode": "#000000",
+        "colorImage": "/images/watch/sport-black.jpg",
+        "image": "/images/watch/sport-black.jpg"
+      },
+      {
+        "color": "blue",
+        "colorCode": "#0000FF",
+        "colorImage": "/images/watch/sport-blue.jpg",
+        "image": "/images/watch/sport-blue.jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/watch/sport-black.jpg",
+      "/images/watch/sport-blue.jpg"
+    ],
+    "images": [
+      "/images/watch/sport-black.jpg",
+      "/images/watch/sport-blue.jpg",
+      "/images/watch/sport-detail.jpg"
+    ],
+    "description": "Advanced sport smart watch with fitness tracking features.",
+    "action": "add to cart",
+    "slug": "sport-smart-watch"
   }
 ]

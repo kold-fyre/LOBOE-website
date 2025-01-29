@@ -14,72 +14,88 @@ interface Props {
     limit: number;
 }
 
-const TabFeature: React.FC<Props> = ({ data, start, limit }) => {
-    const [activeTab, setActiveTab] = useState<string>('men');
+const TabFeatures: React.FC<Props> = ({ data, start, limit }) => {
+    const [activeTab, setActiveTab] = useState<string>('on sale')
 
-    const handleTabClick = (gender: string) => {
-        setActiveTab(gender);
-    };
+    const handleTabClick = (item: string) => {
+        setActiveTab(item)
+    }
 
-    const filteredProducts = data.filter((product) => product.gender === activeTab && (product.category === 'watch'));
+    const getFilterData = () => {
+        let filtered = []
+        if (activeTab === 'on sale') {
+            filtered = data.filter((product) => product.sale && (product.category === 'watch'))
+        } else if (activeTab === 'new arrivals') {
+            filtered = data.filter((product) => product.new && (product.category === 'watch'))
+        } else if (activeTab === 'best sellers') {
+            filtered = data
+                .filter((product) => product.category === 'watch')
+                .slice()
+                .sort((a, b) => b.sold - a.sold)
+        } else {
+            filtered = data.filter((product) => product.category === 'watch')
+        }
+        return filtered.slice(start, Math.min(limit, filtered.length))
+    }
+
+    const filteredProducts = getFilterData()
+
+    // Return early with a message if no products match the filter
+    if (!filteredProducts || filteredProducts.length === 0) {
+        return (
+            <div className="tab-features-block md:pt-20 pt-10">
+                <div className="container">
+                    <div className="heading flex flex-col items-center text-center">
+                        <div className="menu-tab flex items-center gap-2 p-1 bg-surface rounded-2xl">
+                            {['best sellers', 'on sale', 'new arrivals'].map((item, index) => (
+                                <div
+                                    key={index}
+                                    className={`tab-item relative text-secondary heading5 py-2 px-5 cursor-pointer duration-500 hover:text-black ${activeTab === item ? 'active' : ''}`}
+                                    onClick={() => handleTabClick(item)}
+                                >
+                                    {activeTab === item && (
+                                        <motion.div layoutId='active-pill' className='absolute inset-0 rounded-2xl bg-white'></motion.div>
+                                    )}
+                                    <span className='relative heading5 z-[1]'>
+                                        {item}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="text-center mt-8">No products found</div>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <>
-            <div className="tab-features-block style-watch md:pt-20 pt-10">
+            <div className="tab-features-block md:pt-20 pt-10">
                 <div className="container">
-                    <div className="heading flex items-center justify-center">
-                        <div className="menu-tab flex items-center justify-center gap-2 p-1 bg-surface1 rounded-2xl">
-                            {['men', 'women'].map((gender) => (
+                    <div className="heading flex flex-col items-center text-center">
+                        <div className="menu-tab flex items-center gap-2 p-1 bg-surface rounded-2xl">
+                            {['best sellers', 'on sale', 'new arrivals'].map((item, index) => (
                                 <div
-                                    key={gender}
-                                    className={`tab-item relative text-secondary2 heading5 py-2 px-5 cursor-pointer duration-500 hover:text-white 
-                                        ${activeTab === gender ? 'active' : ''}`}
-                                    onClick={() => handleTabClick(gender)}
+                                    key={index}
+                                    className={`tab-item relative text-secondary heading5 py-2 px-5 cursor-pointer duration-500 hover:text-black ${activeTab === item ? 'active' : ''}`}
+                                    onClick={() => handleTabClick(item)}
                                 >
-                                    {activeTab === gender && (
-                                        <motion.div layoutId='active-pill' className='absolute inset-0 rounded-2xl bg-surface1'></motion.div>
+                                    {activeTab === item && (
+                                        <motion.div layoutId='active-pill' className='absolute inset-0 rounded-2xl bg-white'></motion.div>
                                     )}
                                     <span className='relative heading5 z-[1]'>
-                                        Watch For {gender}
+                                        {item}
                                     </span>
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    <div className="list-product hide-product-sold  section-swiper-navigation style-outline style-small-border md:mt-10 mt-6">
-                        <Swiper
-                            spaceBetween={12}
-                            slidesPerView={2}
-                            navigation
-                            loop={true}
-                            modules={[Navigation, Autoplay]}
-                            breakpoints={{
-                                576: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 12,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                992: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 20,
-                                },
-                                1200: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 30,
-                                },
-                            }}
-                            className='w-full'
-                        >
-                            {filteredProducts.slice(start, limit).map((prd) => (
-                                <SwiperSlide key={prd.id}>
-                                    <Product data={prd} type='grid' />
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
+                    <div className="list-product grid lg:grid-cols-4 grid-cols-2 md:gap-[30px] gap-5 hide-product-sold section-swiper-navigation md:mt-10 mt-6">
+                        {filteredProducts.map((prd, index) => (
+                            <Product key={index} data={prd} type='grid' />
+                        ))}
                     </div>
                 </div>
             </div>
@@ -87,4 +103,4 @@ const TabFeature: React.FC<Props> = ({ data, start, limit }) => {
     )
 }
 
-export default TabFeature
+export default TabFeatures

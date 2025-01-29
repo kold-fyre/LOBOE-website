@@ -18,7 +18,7 @@ interface Props {
 const TabFeatures: React.FC<Props> = ({ data, start, limit }) => {
     const [activeTab, setActiveTab] = useState<string>('all')
 
-    const { data: products, isLoading, error } = useProducts();
+    // const { data: products, isLoading, error } = useProducts();
 
     const handleTabClick = (item: string) => {
         setActiveTab(item)
@@ -28,7 +28,7 @@ const TabFeatures: React.FC<Props> = ({ data, start, limit }) => {
     const getFilterData = () => {
 
         if (activeTab === 'all') {
-            return products as any;
+            return data;
         }
 
         if (activeTab === 'new arrivals') {
@@ -50,27 +50,27 @@ const TabFeatures: React.FC<Props> = ({ data, start, limit }) => {
     }
 
 
-    if (isLoading) {
-        return (
-            <div className="flex justify-center items-center md:pt-20 pt-10">
-                <div className="text-center">
-                    <h1 className="text-2xl font-bold">Loading...</h1>
-                    <p className="text-sm text-gray-500">Please wait while we load the products.</p>
-                </div>
-            </div>
-        )
-    }
+    // if (isLoading) {
+    //     return (
+    //         <div className="flex justify-center items-center md:pt-20 pt-10">
+    //             <div className="text-center">
+    //                 <h1 className="text-2xl font-bold">Loading...</h1>
+    //                 <p className="text-sm text-gray-500">Please wait while we load the products.</p>
+    //             </div>
+    //         </div>
+    //     )
+    // }
 
-    if (error) {
-        return (
-            <div className="flex justify-center items-center md:pt-20 pt-10">
-                <div className="text-center">
-                    <h1 className="text-2xl font-bold">Error</h1>
-                    <p className="text-sm text-gray-500">An error occurred while loading the products.</p>
-                </div>
-            </div>
-        )
-    }
+    // if (error) {
+    //     return (
+    //         <div className="flex justify-center items-center md:pt-20 pt-10">
+    //             <div className="text-center">
+    //                 <h1 className="text-2xl font-bold">Error</h1>
+    //                 <p className="text-sm text-gray-500">An error occurred while loading the products.</p>
+    //             </div>
+    //         </div>
+    //     )
+    // }
 
 
 
